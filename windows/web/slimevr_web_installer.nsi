@@ -387,7 +387,7 @@ Section "SlimeVR Server" SEC_SERVER
     SetOutPath $INSTDIR
 
     DetailPrint "Downloading SlimeVR Server..."
-    NScurl::http GET "https://github.com/SlimeVR/SlimeVR-Server/releases/download/v0.11.0/SlimeVR-win64.zip" "${SLIMETEMP}\SlimeVR-win64.zip" /CANCEL /RESUME /END
+    NScurl::http GET "https://github.com/SlimeVR/SlimeVR-Server/releases/download/v0.12.0/SlimeVR-win64.zip" "${SLIMETEMP}\SlimeVR-win64.zip" /CANCEL /RESUME /END
     Pop $0 ; Status text ("OK" for success)
     ${If} $0 != "OK"
         Abort "Failed to download SlimeVR Server. Reason: $0."
