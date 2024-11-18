@@ -20,7 +20,7 @@ Unicode True
 
 # Define the Java Version Strings and to Check (JRE\relase -> JAVA_RUNTIME_VERSION=)
 !define JREVersion "17.0.10+7"
-!define JREDownloadURL "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_x64_windows_hotspot_17.0.10_7.zip"
+!define JREDownloadURL "https://gitee.com/unshakenxu/slime-vr-server-nya/releases/download/jre/OpenJDK17U-jre_x64_windows_hotspot_17.0.10_7.zip"
 !define JREDownloadedFileZip "OpenJDK17U-jre_x64_windows_hotspot_17.0.10_7.zip"
 Var JREneedInstall
 
