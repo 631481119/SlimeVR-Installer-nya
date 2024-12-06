@@ -473,7 +473,7 @@ Section "SteamVR Driver" SEC_VRDRIVER
     SetOutPath $INSTDIR
 
     DetailPrint "Downloading SteamVR Driver..."
-    NScurl::http GET "https://gitee.com/unshakenxu/slime-vr-server-nya/releases/download/openvr/slimevr-openvr-driver-win64.zip" "${SLIMETEMP}\slimevr-openvr-driver-win64.zip" /CANCEL /RESUME /END
+    NScurl::http GET "https://gitee.com/unshakenxu/slime-vr-server-nya/releases/download/openvr-nya/slimevr-openvr-driver-nya-win64.zip" "${SLIMETEMP}\slimevr-openvr-driver-win64.zip" /CANCEL /RESUME /END
     Pop $0 ; Status text ("OK" for success)
     ${If} $0 != "OK"
         Abort "Failed to download SteamVR Driver. Reason: $0."
